@@ -11,7 +11,7 @@ $username = $email = $password_1 = $password_2 = $password = $address = $mobilen
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '961011Bmw-', 'test');
+$db = mysqli_connect('localhost', 'root', 'password', 'test');
 
 // REGISTER USER
 if (isset($_POST['register_user'])) {
