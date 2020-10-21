@@ -11,7 +11,7 @@ $username = $email = $password_1 = $password_2 = $password = $address = $mobilen
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '961011Bmw-', 'test');
+$db = mysqli_connect('localhost', 'root', 'password', 'test');
 
 //echo date("Y-m-d h:i:sa");
 
@@ -44,7 +44,7 @@ if (isset($_POST['booking_confirm'])){
 	$msg = "Beautift care service is $type, order period is $date $time, his/her name is $username, his/her mobile number is $mobilenumber, the date he/she book: $bookingdate,his/her $email, his/her address is $address, additional information is $message";
 	$msg = wordwrap($msg,70);
 	//mail("juxia@student.unimelb.edu.au","booking",$msg);
-	mail("980172043@qq.com","booking",$msg);
+	mail("example@example.com","booking",$msg);
 	}
 }
 ?>
