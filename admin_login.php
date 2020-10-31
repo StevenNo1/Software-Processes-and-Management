@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['admin_login'])) {
 	$admin_email = $_POST['admin_email'];
-	if ($admin_email=="beth@gmail.com"){
+	if ($admin_email=="swen90016tutors@groups.unimelb.edu.au"){
 		header('location: admin_index.php');
 	}
 }
